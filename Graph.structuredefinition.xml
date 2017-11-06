@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <meta>
+    <lastUpdated value="2017-10-26T15:31:45.566+02:00" />
+  </meta>
+  <url value="http://hl7.org/fhir/StructureDefinition/Graph" />
+  <version value="1.00" />
+  <name value="Graph" />
+  <status value="draft" />
+  <date value="2017-10-26T15:20:59.887+02:00" />
+  <contact>
+    <name value="Florian Auer" />
+    <telecom>
+      <system value="email" />
+      <value value="Florian.Auer@med.uni-goettingen.de" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <fhirVersion value="3.0.1"/> 
+  <mapping> 
+    <identity value="v2"/> 
+    <uri value="http://hl7.org/v2"/> 
+    <name value="HL7 v2 Mapping"/> 
+  </mapping> 
+  <mapping> 
+    <identity value="rim"/> 
+    <uri value="http://hl7.org/v3"/> 
+    <name value="RIM Mapping"/> 
+  </mapping> 
+  <kind value="complex-type"/> 
+  <abstract value="false"/> 
+  <type value="Graph"/> 
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/> 
+  <derivation value="specialization"/>
+  <differential> 
+    <element id="Graph">
+      <path value="Graph"/> 
+      <short value="Set of values bounded by low and high"/> 
+      <definition value="A set of ordered Quantities defined by a low and high limit."/> 
+      <comment value="The stated low and high value are assumed to have arbitrarily high precision when it comes
+       to determining which values are in the range. I.e. 1.99 is not in the range 2 -&gt; 3."/> 
+      <min value="0"/> 
+      <max value="*"/>
+      <mapping> 
+        <identity value="v2"/> 
+        <map value="NR and also possibly SN (but see also quantity)"/> 
+      </mapping> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="IVL&lt;QTY[not(type=&quot;TS&quot;)]&gt; [lowClosed=&quot;true&quot; and highClosed=&quot;true&quot;
+        ]or URG&lt;QTY[not(type=&quot;TS&quot;)]&gt;"/> 
+      </mapping> 
+    </element> 
+    <element id="Graph.node">
+      <path value="Graph.node"/> 
+      <short value="Nodes of the graph"/> 
+      <definition value="The Node elements in the graph. At least one node is required for a graph to exist."/> 
+      <comment value="If the low element is missing, the low boundary is not known."/> 
+      <min value="1"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="Element"/>
+      </type> 
+      <condition value="rng-2"/> 
+      <isSummary value="true"/> 
+      <mapping> 
+        <identity value="v2"/> 
+        <map value="NR.1"/> 
+      </mapping> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="./node"/> 
+      </mapping> 
+    </element>
+	<element id="Graph.node.id">
+      <path value="Graph.node.id"/> 
+      <representation value="xmlAttr"/> 
+      <short value="xml:id (or equivalent in JSON)"/> 
+      <definition value="ToDo: only string possible? How to set to unique in graph?"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <base> 
+        <path value="Element.id"/> 
+        <min value="0"/> 
+        <max value="1"/> 
+      </base> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.node.name">
+      <path value="Graph.node.name"/> 
+      <short value="Name of the Node"/> 
+      <definition value="unique id for the element within a resource (for internal references). This may be any
+       string value that does not contain spaces."/> 
+      <min value="0"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.node.represents">
+      <path value="Graph.node.represents"/> 
+      <short value="Name of the Node"/> 
+      <definition value="ToDo: only one? wouldn't 0..* make more sense? Also 'string'?"/> 
+      <min value="0"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+    <element id="Graph.edge">
+      <path value="Graph.edge"/> 
+      <short value="Edges of the graph"/> 
+      <definition value="The Edges between nodes in the graph."/> 
+      <comment value="If the low element is missing, the low boundary is not known."/> 
+      <min value="0"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="Element"/>
+      </type> 
+      <condition value="rng-2"/> 
+      <isSummary value="true"/> 
+      <mapping> 
+        <identity value="v2"/> 
+        <map value="NR.1"/> 
+      </mapping> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="./node"/> 
+      </mapping> 
+    </element>
+	<element id="Graph.edge.id">
+      <path value="Graph.edge.id"/> 
+      <representation value="xmlAttr"/> 
+      <short value="xml:id (or equivalent in JSON)"/> 
+      <definition value="ToDo: only string possible? How to set to unique in graph?"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <base> 
+        <path value="Element.id"/> 
+        <min value="0"/> 
+        <max value="1"/> 
+      </base> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.edge.source">
+      <path value="Graph.edge.source"/> 
+      <short value="Id of the source Node"/> 
+      <definition value="ToDo: How to reference to Node ID?"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="integer"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.edge.target">
+      <path value="Graph.edge.target"/> 
+      <short value="Id of the target Node"/> 
+      <definition value="ToDo: How to reference to Node ID?"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="integer"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.edge.interaction">
+      <path value="Graph.edge.interaction"/> 
+      <short value="Type of interaction of the two Nodes connected by this Edge"/> 
+      <definition value="ToDo: String? Are there codes? What about undirected Graphs?"/> 
+      <min value="0"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.nodeAttribute">
+      <path value="Graph.nodeAttribute"/> 
+      <short value="Values associated with Nodes of the graph"/> 
+      <definition value="The Node elements in the graph. At least one node is required for a graph to exist."/> 
+      <comment value="If the low element is missing, the low boundary is not known."/> 
+      <min value="0"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="Element"/>
+      </type> 
+      <condition value="rng-2"/> 
+      <isSummary value="true"/> 
+      <mapping> 
+        <identity value="v2"/> 
+        <map value="NR.1"/> 
+      </mapping> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="./node"/> 
+      </mapping> 
+    </element>
+	<element id="Graph.nodeAttribute.id">
+      <path value="Graph.nodeAttribute.id"/> 
+      <representation value="xmlAttr"/> 
+      <short value="xml:id (or equivalent in JSON)"/> 
+      <definition value="ToDo: only string possible? How to set to unique in graph?"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <base> 
+        <path value="Element.id"/> 
+        <min value="0"/> 
+        <max value="1"/> 
+      </base> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.nodeAttribute.propertyOf">
+      <path value="Graph.nodeAttribute.propertyOf"/> 
+      <short value="Specifies the Node to which the attribute applies"/> 
+      <definition value="ToDo: link to Node.id"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="integer"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.nodeAttribute.name">
+      <path value="Graph.nodeAttribute.name"/> 
+      <short value="The attribute name"/> 
+      <definition value=""/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.nodeAttribute.value">
+      <path value="Graph.nodeAttribute.value"/> 
+      <short value="The attribute value"/> 
+      <definition value="ToDo: Is value a (xml) keyword? What datatypes are possible/allowed?"/> 
+      <min value="1"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="boolean"/> 
+      </type> 
+      <type> 
+        <code value="integer"/> 
+      </type> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.edgeAttribute">
+      <path value="Graph.edgeAttribute"/> 
+      <short value="Values associated with Edges of the graph"/> 
+      <definition value="The Node elements in the graph. At least one node is required for a graph to exist."/> 
+      <comment value="If the low element is missing, the low boundary is not known."/> 
+      <min value="0"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="Element"/>
+      </type> 
+      <condition value="rng-2"/> 
+      <isSummary value="true"/> 
+      <mapping> 
+        <identity value="v2"/> 
+        <map value="NR.1"/> 
+      </mapping> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="./node"/> 
+      </mapping> 
+    </element>
+	<element id="Graph.edgeAttribute.id">
+      <path value="Graph.edgeAttribute.id"/> 
+      <representation value="xmlAttr"/> 
+      <short value="xml:id (or equivalent in JSON)"/> 
+      <definition value="ToDo: only string possible? How to set to unique in graph?"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <base> 
+        <path value="Element.id"/> 
+        <min value="0"/> 
+        <max value="1"/> 
+      </base> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.edgeAttribute.propertyOf">
+      <path value="Graph.edgeAttribute.propertyOf"/> 
+      <short value="Specifies the Edge to which the attribute applies"/> 
+      <definition value="ToDo: link to Edge.id"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="integer"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.edgeAttribute.name">
+      <path value="Graph.edgeAttribute.name"/> 
+      <short value="The attribute name"/> 
+      <definition value=""/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.edgeAttribute.value">
+      <path value="Graph.edgeAttribute.value"/> 
+      <short value="The attribute value"/> 
+      <definition value="ToDo: Is value a (xml) keyword? What datatypes are possible/allowed?"/> 
+      <min value="1"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="boolean"/> 
+      </type> 
+      <type> 
+        <code value="integer"/> 
+      </type> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.networkAttribute">
+      <path value="Graph.networkAttribute"/> 
+      <short value="Values associated with Edges of the graph"/> 
+      <definition value="The Node elements in the graph. At least one node is required for a graph to exist."/> 
+      <comment value="If the low element is missing, the low boundary is not known."/> 
+      <min value="0"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="Element"/>
+      </type> 
+      <condition value="rng-2"/> 
+      <isSummary value="true"/> 
+      <mapping> 
+        <identity value="v2"/> 
+        <map value="NR.1"/> 
+      </mapping> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="./node"/> 
+      </mapping> 
+    </element>
+	<element id="Graph.networkAttribute.id">
+      <path value="Graph.networkAttribute.id"/> 
+      <representation value="xmlAttr"/> 
+      <short value="xml:id (or equivalent in JSON)"/> 
+      <definition value="ToDo: only string possible? How to set to unique in graph?"/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <base> 
+        <path value="Element.id"/> 
+        <min value="0"/> 
+        <max value="1"/> 
+      </base> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.networkAttribute.name">
+      <path value="Graph.networkAttribute.name"/> 
+      <short value="The attribute name"/> 
+      <definition value=""/> 
+      <min value="1"/> 
+      <max value="1"/> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+	<element id="Graph.networkAttribute.value">
+      <path value="Graph.networkAttribute.value"/> 
+      <short value="The attribute value"/> 
+      <definition value="ToDo: Is value a (xml) keyword? What datatypes are possible/allowed?"/> 
+      <min value="1"/> 
+      <max value="*"/> 
+      <type> 
+        <code value="boolean"/> 
+      </type> 
+      <type> 
+        <code value="integer"/> 
+      </type> 
+      <type> 
+        <code value="string"/> 
+      </type> 
+      <mapping> 
+        <identity value="rim"/> 
+        <map value="n/a"/> 
+      </mapping> 
+    </element> 
+  </differential> 
+</StructureDefinition>

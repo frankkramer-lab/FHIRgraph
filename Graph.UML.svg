@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="43.967545cm"
+   height="24.886717cm"
+   viewBox="402 120 877.03681 480.10625"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Graph.svg"
+   inkscape:export-filename="/home/fauer/Projekte/Fair Pathways on Fire/Graph.png"
+   inkscape:export-xdpi="99"
+   inkscape:export-ydpi="99">
+  <metadata
+     id="metadata256">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs254" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     id="namedview252"
+     showgrid="false"
+     inkscape:zoom="0.22563562"
+     inkscape:cx="-728.39825"
+     inkscape:cy="911.56799"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4795"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="g4795"
+     transform="matrix(1.0053658,0,0,1.0053657,112.09875,-0.1924885)">
+    <g
+       id="g4527">
+      <polyline
+         id="polyline4529"
+         points="543.193,180.533 543.193,210.74 543.193,210.74 543.193,243.183 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+      <polygon
+         id="polygon4531"
+         points="551.193,180.533 543.193,164.533 535.193,180.533 "
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon4533"
+         points="551.193,180.533 543.193,164.533 535.193,180.533 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+    </g>
+    <g
+       id="g4553">
+      <polyline
+         id="polyline4555"
+         points="543.193,318.367 543.193,324.354 543.291,324.354 543.291,341.513 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4557"
+         points="543.193,321.195 538.393,307.195 543.193,293.195 547.993,307.195 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4559"
+         points="543.193,321.195 538.393,307.195 543.193,293.195 547.993,307.195 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4561"
+         y="305.19501"
+         x="554.19299"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">node</text>
+      <text
+         id="text4563"
+         y="321.19501"
+         x="554.19299"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4565"
+         y="337.513"
+         x="547.29102"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">[1..*]</text>
+    </g>
+    <g
+       id="g4583">
+      <polyline
+         id="polyline4585"
+         points="674.565,382.518 809.057,382.518 809.057,453.994 651.363,453.994 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4587"
+         points="677.393,382.518 663.393,387.318 649.393,382.518 663.393,377.718 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4589"
+         points="677.393,382.518 663.393,387.318 649.393,382.518 663.393,377.718 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4591"
+         y="379.51801"
+         x="681.39301"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4593"
+         y="450.99399"
+         x="655.36298"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">source (Reference)</text>
+      <text
+         id="text4595"
+         y="466.99399"
+         x="655.36298"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">[1..1]</text>
+    </g>
+    <g
+       id="g4597">
+      <polyline
+         id="polyline4599"
+         points="674.565,382.518 809.057,382.518 809.057,493.994 651.363,493.994 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4601"
+         points="677.393,382.518 663.393,387.318 649.393,382.518 663.393,377.718 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4603"
+         points="677.393,382.518 663.393,387.318 649.393,382.518 663.393,377.718 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4605"
+         y="379.51801"
+         x="681.39301"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4607"
+         y="490.99399"
+         x="655.36298"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">target (Reference)</text>
+      <text
+         id="text4609"
+         y="506.99399"
+         x="655.36298"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">[1..1]</text>
+    </g>
+    <g
+       id="g4629">
+      <polyline
+         id="polyline4631"
+         points="542.413,529.165 542.413,539.1 921.463,539.1 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4633"
+         points="542.413,531.994 537.613,517.994 542.413,503.994 547.213,517.994 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4635"
+         points="542.413,531.994 537.613,517.994 542.413,503.994 547.213,517.994 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4637"
+         y="515.99402"
+         x="553.41302"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4639"
+         y="536.09998"
+         x="917.46301"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">propertyOf (Reference)</text>
+      <text
+         id="text4641"
+         y="552.09998"
+         x="917.46301"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">[0..*]</text>
+    </g>
+    <g
+       id="g4661">
+      <polyline
+         id="polyline4663"
+         points="674.569,382.518 791.949,382.518 791.949,382.423 920.5,382.423 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4665"
+         points="677.398,382.518 663.398,387.318 649.398,382.518 663.398,377.718 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4667"
+         points="677.398,382.518 663.398,387.318 649.398,382.518 663.398,377.718 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4669"
+         y="379.51801"
+         x="681.39801"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4671"
+         y="379.423"
+         x="916.5"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">propertyOf (Reference)</text>
+      <text
+         id="text4673"
+         y="395.423"
+         x="916.5"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">[0..*]</text>
+    </g>
+    <g
+       id="g4693">
+      <polyline
+         id="polyline4695"
+         points="673.465,258.189 727.49,258.189 727.49,258.078 919.385,258.078 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4697"
+         points="676.293,258.189 662.293,262.989 648.293,258.189 662.293,253.389 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4699"
+         points="676.293,258.189 662.293,262.989 648.293,258.189 662.293,253.389 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4701"
+         y="255.189"
+         x="680.29303"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">networkAttributes</text>
+      <text
+         id="text4703"
+         y="271.189"
+         x="680.29303"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4705"
+         y="255.078"
+         x="915.38501"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">[0..*]</text>
+    </g>
+    <g
+       id="g4-7"
+       transform="matrix(0.99466286,0,0,0.99466296,2.2298506,-7.1996732)">
+      <g
+         id="g4407-9">
+        <rect
+           ry="5.7337337"
+           y="121.14333"
+           x="430.44812"
+           height="48.075146"
+           width="224.9388"
+           id="rect4384-60"
+           style="opacity:1;fill:#f0f8ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.64590764;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.75757575;stroke-dasharray:none;stroke-dashoffset:0.80000001;stroke-opacity:1" />
+        <text
+           id="text10-4"
+           y="140.069"
+           x="543.19299"
+           style="font-style:normal;font-weight:700;font-size:16px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           font-size="16">Element</text>
+        <text
+           id="text16-1"
+           y="163.069"
+           x="433.39301"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+           font-size="12.8">extension: Extension [0..*]</text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path4395-04"
+           d="m 429.78656,148.92988 226.26195,0"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.64590764;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g4707">
+      <polyline
+         id="polyline4709"
+         points="543.193,180.296 543.193,197.679 1025.47,197.679 1025.47,217.077 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+      <polygon
+         id="polygon4711"
+         points="551.193,180.296 543.193,164.296 535.193,180.296 "
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon4713"
+         points="551.193,180.296 543.193,164.296 535.193,180.296 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+    </g>
+    <g
+       id="g180-8"
+       transform="matrix(0.99466286,0,0,0.99466296,4.8910888,0.87108315)">
+      <rect
+         style="opacity:1;fill:#f0f8ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.64590788;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.75757575;stroke-dasharray:none;stroke-dashoffset:0.80000001;stroke-opacity:1"
+         id="rect4384-2-7"
+         width="209.34508"
+         height="78.950676"
+         x="920.76361"
+         y="218.77946"
+         ry="5.7337337" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.54553342;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 920.102,246.56602 209.4207,0"
+         id="path4395-6-0"
+         inkscape:connector-curvature="0" />
+      <text
+         font-size="16"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+         x="1025.47"
+         y="237.578"
+         id="text186-8">NetworkAttributes</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="923.37201"
+         y="260.578"
+         id="text192-6">identifier: string [0..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="923.37201"
+         y="276.578"
+         id="text194-2">name: string [1..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="923.37201"
+         y="292.578"
+         id="text196-4">value: Element [1..1]</text>
+    </g>
+    <g
+       id="g4715">
+      <polyline
+         id="polyline4717"
+         points="543.193,180.517 543.193,197.467 1159.71,197.467 1159.71,368.423 1131.7,368.423 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+      <polygon
+         id="polygon4719"
+         points="551.193,180.517 543.193,164.517 535.193,180.517 "
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon4721"
+         points="551.193,180.517 543.193,164.517 535.193,180.517 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+    </g>
+    <g
+       id="g4723">
+      <polyline
+         id="polyline4725"
+         points="543.193,180.517 543.193,197.467 1159.71,197.467 1159.71,565.1 1131.62,565.1 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+      <polygon
+         id="polygon4727"
+         points="551.193,180.517 543.193,164.517 535.193,180.517 "
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon4729"
+         points="551.193,180.517 543.193,164.517 535.193,180.517 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+    </g>
+    <g
+       id="g4731">
+      <polyline
+         id="polyline4733"
+         points="543.193,180.53 543.193,197.587 409.562,197.587 409.562,382.518 437.216,382.518 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+      <polygon
+         id="polygon4735"
+         points="551.193,180.53 543.193,164.53 535.193,180.53 "
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon4737"
+         points="551.193,180.53 543.193,164.53 535.193,180.53 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+    </g>
+    <g
+       id="g4739">
+      <polyline
+         id="polyline4741"
+         points="543.193,180.53 543.193,197.587 409.562,197.587 409.562,453.994 433.463,453.994 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+      <polygon
+         id="polygon4743"
+         points="551.193,180.53 543.193,164.53 535.193,180.53 "
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon4745"
+         points="551.193,180.53 543.193,164.53 535.193,180.53 "
+         style="fill:none;fill-opacity:0;stroke:#00c2ff;stroke-width:2" />
+    </g>
+    <g
+       id="g4747">
+      <polyline
+         id="polyline4749"
+         points="412.921,282.189 367.843,282.189 367.843,493.994 433.463,493.994 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4751"
+         points="410.093,282.189 424.093,277.389 438.093,282.189 424.093,286.989 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4753"
+         points="410.093,282.189 424.093,277.389 438.093,282.189 424.093,286.989 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4755"
+         y="279.189"
+         x="406.09299"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">edge</text>
+      <text
+         id="text4757"
+         y="295.189"
+         x="406.09299"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4759"
+         y="490.99399"
+         x="429.46301"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">[0..*]</text>
+    </g>
+    <g
+       id="g4761">
+      <polyline
+         id="polyline4763"
+         points="673.465,282.189 850.088,282.189 850.088,342.423 920.5,342.423 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4765"
+         points="676.293,282.189 662.293,286.989 648.293,282.189 662.293,277.389 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4767"
+         points="676.293,282.189 662.293,286.989 648.293,282.189 662.293,277.389 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4769"
+         y="279.189"
+         x="680.29303"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998">nodeAttributes</text>
+      <text
+         id="text4771"
+         y="295.189"
+         x="680.29303"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4773"
+         y="339.423"
+         x="916.5"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">[0..*]</text>
+    </g>
+    <g
+       id="g4775">
+      <polyline
+         id="polyline4777"
+         points="412.921,258.189 289.354,258.189 289.354,579.1 921.463,579.1 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <polygon
+         id="polygon4779"
+         points="410.093,258.189 424.093,253.389 438.093,258.189 424.093,262.989 "
+         style="fill:#000080" />
+      <polygon
+         id="polygon4781"
+         points="410.093,258.189 424.093,253.389 438.093,258.189 424.093,262.989 "
+         style="fill:none;fill-opacity:0;stroke:#000080;stroke-width:2" />
+      <text
+         id="text4783"
+         y="255.189"
+         x="406.09299"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">edgeAttributes</text>
+      <text
+         id="text4785"
+         y="271.189"
+         x="406.09299"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998" />
+      <text
+         id="text4787"
+         y="576.09998"
+         x="917.46301"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:end;fill:#000000"
+         font-size="12.7998">[0..*]</text>
+    </g>
+    <g
+       id="g4421-7"
+       transform="matrix(0.99466286,0,0,0.99466296,3.1507608,11.449755)">
+      <rect
+         ry="5.7337337"
+         y="234.37317"
+         x="438.29449"
+         height="48.075134"
+         width="209.65698"
+         id="rect4384-0-9"
+         style="opacity:1;fill:#f0f8ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.64590788;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.75757575;stroke-dasharray:none;stroke-dashoffset:0.80000001;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4395-7-3"
+         d="m 437.32104,262.15972 211.292,0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.55688071;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g18-9">
+        <text
+           id="text24-2"
+           y="253.28999"
+           x="543.19299"
+           style="font-style:normal;font-weight:700;font-size:16px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           font-size="16">Graph</text>
+        <text
+           id="text30-8"
+           y="276.29001"
+           x="441.09299"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+           font-size="12.8">identifier: string [1..1]</text>
+      </g>
+    </g>
+    <g
+       id="g148-3"
+       transform="matrix(0.99466286,0,0,0.99466296,6.2528558,-12.068336)">
+      <rect
+         style="opacity:1;fill:#f0f8ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.64590788;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.75757575;stroke-dasharray:none;stroke-dashoffset:0.80000001;stroke-opacity:1"
+         id="rect4384-6-0"
+         width="209.34514"
+         height="79.886284"
+         x="920.76355"
+         y="342.59348"
+         ry="5.7337337" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5512135;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 920.10199,370.38 210.35631,0"
+         id="path4395-5-1"
+         inkscape:connector-curvature="0" />
+      <text
+         font-size="16"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+         x="1025.6"
+         y="361.565"
+         id="text154-7">NodeAttributes</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="923.5"
+         y="384.565"
+         id="text160-8">identifier: string [0..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="923.5"
+         y="400.565"
+         id="text162-9">name: string [1..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="923.5"
+         y="416.565"
+         id="text164-1">value: Element [1..1]</text>
+    </g>
+    <g
+       id="g116-5"
+       transform="matrix(0.99466286,0,0,0.99466296,5.7007883,26.008572)">
+      <rect
+         style="opacity:1;fill:#f0f8ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.64590788;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.75757575;stroke-dasharray:none;stroke-dashoffset:0.80000001;stroke-opacity:1"
+         id="rect4384-37-4"
+         width="209.65695"
+         height="79.886314"
+         x="921.69916"
+         y="501.6492"
+         ry="5.7337337" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.55310392;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 921.03766,529.43574 210.66824,0"
+         id="path4395-32-9"
+         inkscape:connector-curvature="0" />
+      <text
+         font-size="16"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+         x="1026.5601"
+         y="520.76599"
+         id="text122-2">EdgeAttributes</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="924.46301"
+         y="543.76599"
+         id="text128-5">identifier: string [0..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="924.46301"
+         y="559.76599"
+         id="text130-7">name: string [1..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="924.46301"
+         y="575.76599"
+         id="text132-4">value: Element [1..1]</text>
+    </g>
+    <g
+       id="g40-9"
+       transform="matrix(0.99466286,0,0,0.99466296,3.1507608,2.1802728)">
+      <rect
+         style="opacity:1;fill:#f0f8ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.64590788;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.75757575;stroke-dasharray:none;stroke-dashoffset:0.80000001;stroke-opacity:1"
+         id="rect4384-9-9"
+         width="209.34509"
+         height="79.262535"
+         x="438.60632"
+         y="342.59348"
+         ry="5.7337337" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.64590788;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 437.94479,370.38 210.66825,0"
+         id="path4395-0-4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <text
+         font-size="16"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+         x="543.29102"
+         y="361.51801"
+         id="text46-5">Node</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="441.19101"
+         y="384.51801"
+         id="text52-9">identifier: string [1..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="441.19101"
+         y="400.51801"
+         id="text54-3">name: string [1..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="441.19101"
+         y="416.51801"
+         id="text56-5">represents: string [0..1]</text>
+    </g>
+    <g
+       id="g72-7"
+       transform="matrix(0.99466286,0,0,0.99466296,3.1507608,2.1802728)">
+      <rect
+         style="opacity:1;fill:#f0f8ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.64590788;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.75757575;stroke-dasharray:none;stroke-dashoffset:0.80000001;stroke-opacity:1"
+         id="rect4384-3-0"
+         width="217.14194"
+         height="63.045086"
+         x="433.61639"
+         y="440.52188"
+         ry="5.7337337" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.59434676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 432.95481,468.30843 217.52948,0"
+         id="path4395-3-8"
+         inkscape:connector-curvature="0" />
+      <text
+         font-size="16"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+         x="542.41302"
+         y="458.99399"
+         id="text78-1">Edge</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="436.46301"
+         y="481.99399"
+         id="text84-9">identifier: string [1..1]</text>
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:monospace;text-anchor:start;fill:#000000"
+         x="436.46301"
+         y="497.99399"
+         id="text86-9">interaction: string [0..1]</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<Graph xmlns="http://hl7.org/fhir"> 
+  <identifier> 
+	<url value="http://www.ndexbio.org/#/network/50e3dff7-133e-11e6-a039-06603eb7f303"/>
+  </identifier>
+  <networkAttribute>
+	<name value="name"/>
+	<value value="The RAS Machine"/>
+  </networkAttribute> 
+  <networkAttribute>
+	<name value="created"/>
+	<value value="May 6, 2016 5:55:04 AM"/>
+  </networkAttribute> 
+  <networkAttribute>
+	<name value="UUID"/>
+	<value value="50e3dff7-133e-11e6-a039-06603eb7f303"/>
+  </networkAttribute> 
+  <node>
+	<identifier value="1"/>
+	<name value="RAF1"/>
+	<represents>
+	  <url value="http://identifiers.org/uniprot/P04049"/>
+	</represents>
+  </node>
+  <node>
+	<identifier value="2"/>
+	<name value="KSR1"/>
+	<represents>
+	  <url value="http://identifiers.org/uniprot/Q8IVT5"/>
+	</represents>
+  </node>
+  <edge>
+    <source>
+	  <reference value="1"/>
+    </source>
+    <target>
+	  <reference value="2"/>
+    </target>
+	<interaction value="activation"/>
+  </edge>
+  <nodeAttribute>
+	<propertyOf>
+	  <reference value="1"/>
+	</propertyOf>
+	<name value="HGNC"/>
+	<value>
+	  <url value="http://identifiers.org/hgnc/HGNC:9829"/>
+	</value>
+  </nodeAttribute>
+</Graph>
